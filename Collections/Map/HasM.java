@@ -11,18 +11,21 @@ public class HasM{
         m1.put("lucky",7);
          
         
-        // m1.putAll(m);
-        // System.out.println(m1);
+        m1.putAll(m);
+        System.out.println(m1);
 
 
-        // m1.remove(m);
-        // System.out.println(m1);
+        m1.remove(m);
+        System.out.println(m1);
 
 
         //generic:
-        // for(Map.Entry m2: m1.entrySet()){
-        //     System.out.println(m2.getKey()+ " " + m2.getValue());
-        // }
+        for(Map.Entry m2: m1.entrySet()){
+            System.out.println(m2.getKey()+ " " + m2.getValue());
+        }
+        for(Map.Entry m3:m.entrySet()){
+            System.out.println(m3.getKey()+ " " + m3.getValue());
+        }
  
         //non generic:
        
