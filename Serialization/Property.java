@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.Enumeration;
 import java.util.Properties;
 public class Property {
     public static void main(String[] args) throws Exception {

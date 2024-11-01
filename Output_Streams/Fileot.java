@@ -36,9 +36,9 @@ public class Fileot{
       int i;
       FileInputStream fis = new FileInputStream("outputBytes.txt");
       while ((i=fis.read()) != -1){
-        System.out.print((int)i);
+        System.out.println((char)i);
       }
-      System.out.println(" ");
+      System.out.println(" ");  
 
     }
 
